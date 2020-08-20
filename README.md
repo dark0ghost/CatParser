@@ -5,13 +5,13 @@ __library that allows you to download a random photo or gif with a cat.__
 
 # how use
 ```python
-from sms_ru import CheckCall
+from CatParser import CatApi
 import aiohttp
 
 
 async def main():
  session = aiohttp.ClientSession()
- cat = CheckCall(session=session)
+ cat = CatApi(session=session)
  print(await cat.get_photo())
  # jpg or gif or png
 ```
