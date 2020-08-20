@@ -1,4 +1,6 @@
 # CatParser
+__library that allows you to download a random photo or gif with a cat__
+[service](thecatapi.com)
 
 
 # how use
