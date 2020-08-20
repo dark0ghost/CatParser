@@ -11,7 +11,7 @@ import aiohttp
 
 async def main():
  session = aiohttp.ClientSession()
- cat = CheckCall(session=session,api_key="")
+ cat = CheckCall(session=session)
  print(await cat.get_photo())
  # jpg or gif or png
 ```
